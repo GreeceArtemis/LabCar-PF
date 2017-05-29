@@ -147,7 +147,7 @@ footer .list-group{
   .textFooter  .stores{
     padding-top: 17%;
   }
-  .textFooter .stores img{
+  .texttFooter .stores img{
     padding: 10px;
     width: 60%;
   }
@@ -198,7 +198,7 @@ footer .list-group{
   .textFooter{
     display: none;
   }
-  .textFooter .stores img{
+  .texttFooter .stores img{
     padding: 10px;
     width: 60%;
   }
