@@ -33,9 +33,48 @@
 .typeText{
   font-family: 'Open Sans', sans-serif;
 }
+/*Hero*/
+.bg-yellow{
+  background-color: #f7b617;
+  color: white;
+}
+.containerHero{
+  background-image: url(../img/taxi.jpg);
+
+}
+.btn-hero{
+  font-size: medium;
+  font-weight: 600;
+  margin-top:30px;
+}
+
 /*Pantalla Lg-md*/
 @media (min-width: 768px) {
-
+  .containerHero{
+    height: 600px;
+    background-position: center 91%;
+    background-size: 100%;
+    font-size: 3rem;
+    }
+    small{
+      font-size: 60%;
+    }
+  .textHeroMobile{
+    display: none;
+  }
+  .heroDesktop{
+    margin-top: 11%;
+    padding: 40px;
+  }
+  .heroDesktop input{
+    background-color: #f7b617;
+    width: 35%;
+    border: 1.5px solid transparent;
+    border-bottom-color: white;
+  }
+  .textHeroDesktop img{
+    width: 18%;
+  }
 }
 /*Pantalla xs-sm*/
 @media (max-width: 767px) {
@@ -43,5 +82,17 @@
   .logoNav{
     margin-left: 35%;
   }
+  .containerHero{
+    height: 600px;
+    background-repeat: round;
+    font-size: 4rem;
+    }
+  .heroMobile{
+    margin-top: 25%;
+    padding: 40px;
+  }
 
+  .textHeroDesktop{
+    display: none;
+  }
 }
