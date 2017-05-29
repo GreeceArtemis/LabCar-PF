@@ -1,0 +1,3 @@
+$('#collapseNav').collapse({
+  toggle: false
+})
