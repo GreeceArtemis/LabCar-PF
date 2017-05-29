@@ -198,5 +198,8 @@ footer .list-group{
   .textFooter{
     display: none;
   }
-
+  .textFooter .stores img{
+    padding: 10px;
+    width: 60%;
+  }
 }
