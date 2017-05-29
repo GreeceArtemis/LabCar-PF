@@ -83,6 +83,17 @@
  .containerTarifa input[type="text"]::-webkit-input-placeholder{
   color: white;
 }
+footer{
+  padding:80px 20px;
+  background-color: #2B2B2B;
+  color:white;
+
+}
+footer .list-group{
+  background-color: transparent;
+  color:white;
+  border-color: transparent;
+}
 /*Pantalla Lg-md*/
 @media (min-width: 768px) {
   .containerHero{
@@ -133,7 +144,13 @@
     opacity: 0.9;
     color: white;
   }
-
+  .textFooter  .stores{
+    padding-top: 17%;
+  }
+  .textFooter .stores img{
+    padding: 10px;
+    width: 60%;
+  }
 }
 /*Pantalla xs-sm*/
 @media (max-width: 767px) {
@@ -178,4 +195,8 @@
   .containerTarifa .mapa{
     display: none;
   }
+  .textFooter{
+    display: none;
+  }
+
 }
