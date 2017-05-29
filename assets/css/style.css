@@ -65,6 +65,24 @@
   margin-left: 25px;
 }
 
+.mapa{
+  height: 400px;
+  width: 550px;
+}
+.containerTarifa{
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+.containerTarifa input{
+  margin:10px;
+  width: 60%;
+  border:1px solid white;
+  padding: 8px;
+  border-radius: 20px;
+}
+ .containerTarifa input[type="text"]::-webkit-input-placeholder{
+  color: white;
+}
 /*Pantalla Lg-md*/
 @media (min-width: 768px) {
   .containerHero{
@@ -156,5 +174,8 @@
     background-color: black;
     opacity: 0.6;
     color: white;
+  }
+  .containerTarifa .mapa{
+    display: none;
   }
 }
